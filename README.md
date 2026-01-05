@@ -1,30 +1,31 @@
 # LiveScribe
 
-This is a project to identify math and provide the solution in real time using Computer Vision and Machine Learning.
+LiveScribe is a computer vision project that recognizes handwritten math expressions from a drawing canvas and evaluates them.
 
-## Features
+The goal is to explore symbol recognition, segmentation, and expression parsing using deep learning, while keeping the system interactive and easy to experiment with.
 
-- Real-time math identification
-- Solution generation
-- Interactive experience
-- Cross-platform compatibility
+## Current Features
 
-## Technologies
+- Handwritten input via a drawing canvas  
+- Image preprocessing for symbol recognition  
+- GPU-accelerated deep learning setup using CUDA and PyTorch 
 
-- Python
-- OpenCV
-- NumPy
-- Scikit-learn
-- Matplotlib
+## Planned Features
 
-## Installation
+- Symbol segmentation (digits and operators)  
+- Handwritten math expression parsing  
+- Real-time or on-submit evaluation  
+- Confidence visualization and error analysis  
+
+## Tech Stack
+
+- Python  
+- PyTorch / Torchvision  
+- OpenCV  
+- NumPy  
+- Gradio  
+
+## Setup
 
 ```bash
 pip install -r requirements.txt
-```
-
-## Usage
-
-```bash
-python main.py
-```
