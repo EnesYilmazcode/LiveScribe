@@ -1,4 +1,6 @@
 # Ignore model weights / big artifacts
+
+#but still keep some, just not hte safe tensors
 model/*
 !model/vocab.json
 !model/*.json
