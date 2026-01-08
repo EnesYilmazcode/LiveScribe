@@ -1,0 +1,5 @@
+# Ignore model weights / big artifacts
+model/*
+!model/vocab.json
+!model/*.json
+!.gitignore
